@@ -216,3 +216,37 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# API Keys and secrets
+.env
+.env.local
+secrets.json
+config_local.py
+auth_token.txt
+
+# Credentials files
+credentials/
+secrets/
+config/
+
+# Python specifics
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data with PII or work secrets
+**/raw_data/
+**/unclean_data/
+data/production*
+data/*_actual.*
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Excel/Access files with sensitive info
+*.xlsx
+*.accdb
+*.mdb
